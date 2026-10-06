@@ -1,0 +1,58 @@
+[
+  {
+    "ticket": "I was charged twice for the same subscription renewal.",
+    "expected": {
+      "category": "billing",
+      "priority": "medium",
+      "escalate": false
+    }
+  },
+  {
+    "ticket": "I cannot sign in after resetting my password and I need access today.",
+    "expected": {
+      "category": "account",
+      "priority": "high",
+      "escalate": false
+    }
+  },
+  {
+    "ticket": "Every user in our office sees Service Unavailable and nobody can work.",
+    "expected": {
+      "category": "technical",
+      "priority": "critical",
+      "escalate": true
+    }
+  },
+  {
+    "ticket": "Where can I download last month's invoice?",
+    "expected": {
+      "category": "billing",
+      "priority": "low",
+      "escalate": false
+    }
+  },
+  {
+    "ticket": "A failed import deleted customer records and there is no backup.",
+    "expected": {
+      "category": "technical",
+      "priority": "critical",
+      "escalate": true
+    }
+  },
+    {
+    "ticket": "Can you change the contact email on our profile?",
+    "expected": {
+      "category": "account",
+      "priority": "low",
+      "escalate": false
+    }
+  },
+  {
+    "ticket": "A former employee is still accessing our admin account without permission.",
+    "expected": {
+      "category": "security",
+      "priority": "critical",
+      "escalate": true
+    }
+  }
+]
